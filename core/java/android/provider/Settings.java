@@ -5679,8 +5679,15 @@ public final class Settings {
          * @hide
          */
         public static final String STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
+
+        /**
+         * Whether Proximity on Wake is Enabled or not
+         * @hide
+         */
+        @Readable
+        public static final String PROXIMITY_ON_WAKE = "proximity_on_wake";
 		
-		/**
+	 /**
          * QS battery style
          * @hide
          */
