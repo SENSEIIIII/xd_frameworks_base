@@ -5669,6 +5669,12 @@ public final class Settings {
         public static final String PROXIMITY_ON_WAKE = "proximity_on_wake";
 
         /**
+         * Whether to enable the ripple animation on fingerprint unlock
+         * @hide
+         */
+        public static final String ENABLE_RIPPLE_EFFECT = "enable_ripple_effect";
+
+        /**
          * Battery style
          * @hide
          */
